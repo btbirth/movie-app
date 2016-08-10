@@ -1,0 +1,7 @@
+<% @movies.each do |movie|%>
+	<%= movie["Title"]%><br>
+	<%= movie["Year"]%> <br>
+	<%= link_to 'details', details_path(movie["imdbID"])%>
+		
+	<hr>
+<%end%>

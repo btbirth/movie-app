@@ -35,7 +35,7 @@ gem 'twitter-bootstrap-rails'
 
 # Simple form
 gem 'simple_form'
-
+gem 'rest-client'
 gem 'devise'
 
 group :development, :test do
