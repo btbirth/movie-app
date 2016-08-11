@@ -1,6 +1,7 @@
 <h1><%= @movie_info["Title"] %></h1>
 <p><b>Year:</b> <%= @movie_info["Year"] %></p>
 <p><b>Synopsis:</b> <%= @movie_info["Plot"] %></p>
+<p><b>imdb id:</b> <%= @movie_info["imdbID"] %></p>
     <%= simple_form_for([current_user,@movie]) do |f| %>
 	    <%= f.hidden_field :title, :value => @movie_info["Title"] %>
 	    <%= f.hidden_field :year, :value => @movie_info["Year"] %>

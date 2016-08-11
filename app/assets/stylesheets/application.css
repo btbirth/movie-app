@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+.your{
+	color:orange;
+	background-color:lightgray;
+}
